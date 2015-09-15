@@ -1,0 +1,11 @@
+Bundle-Category: demanes, middleware, library
+Bundle-ContactAddress: coen.vanleeuwen@tno.nl
+Bundle-Copyright: TNO 2014
+Bundle-Description: Bundle to connect a PC to a USB device
+Bundle-Name: USB connector
+Bundle-Vendor: TNO
+Bundle-Version: 1.0.0
+Private-Package:  \
+	eu.artemis.demanes.lib.impl.usbConnector
+Service-Component:  \
+	*

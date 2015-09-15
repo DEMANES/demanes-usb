@@ -1,0 +1,9 @@
+-includeresource: lib/native
+Bundle-NativeCode: \
+    windows/x86_64/rxtxSerial.dll;osname=WindowsNT;osname=WindowsXP;osname=WindowsVista;osname=Windows7;processor=x86_64,\
+    windows/x686/rxtxSerial.dll;osname=WindowsNT;osname=WindowsXP;osname=WindowsVista;osname=Windows7;processor=x686;processor=i686,\
+    linux/x86_64/librxtxSerial.so;osname=Linux;processor=x86_64,\
+    linux/x686/librxtxSerial.so;osname=Linux;processor=x686;processor=i686,\
+    linux/arm/librxtxSerial.so;osname=Linux;processor=arm
+Export-Package:  \
+	gnu.io

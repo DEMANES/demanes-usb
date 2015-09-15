@@ -1,0 +1,4 @@
+Private-Package:  \
+	eu.artemis.demanes.test.lib.usbConnector
+Service-Component:  \
+	*

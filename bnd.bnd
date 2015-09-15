@@ -1,0 +1,9 @@
+-buildpath:  \
+	biz.aQute.bnd.annotation,\
+	lib/RXTXcomm.jar;version=file,\
+	eu.artemis.demanes.demanesLibInterface;version=latest,\
+	eu.artemis.demanes.demanesCoreInterface;version=latest,\
+	eu.artemis.demanes.impl.communication;version=latest,\
+	log4j
+-sub:  \
+	*.bnd
